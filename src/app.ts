@@ -61,7 +61,7 @@ connectDB().then(() => {
     );
   });
 }).catch((error: Error) => {
-  console.error("Failed to start Ddatabase server");
+  console.error("Failed to start Database server");
 });  
 
 process.on("SIGINT", async () => {
